@@ -38,7 +38,7 @@ public class HelloController {
     	while (attributeNames.hasMoreElements()) {
     		
     		String attributeName = attributeNames.nextElement();
-    		System.out.println("attributeName: " + attributeName);
+    		System.out.println("1) attributeName: " + attributeName);
     		
     	}
     	
@@ -50,11 +50,11 @@ public class HelloController {
     	while (attributeNames.hasMoreElements()) {
     		
     		String attributeName = attributeNames.nextElement();
-    		System.out.println("attributeName: " + attributeName);
+    		System.out.println("2) attributeName: " + attributeName);
     		
     	}
     	
-        return "Greetings from Spring Boot!";
+        return "Hello from Spring Boot";
         
     }
 
