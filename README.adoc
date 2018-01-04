@@ -1,0 +1,29 @@
+
+= Spring Session Data Neo4j OGM Sample
+Eric Spiegelberg
+
+A sample project demonstrating spring-session-data-neo4j-ogm with a spring-boot application.
+
+== Building & Running
+
+. Download Neo4j from https://neo4j.com/download
+
+. Unpack the downloaded binary
+
+. Start Neo4j by executing: $NEO$J_HOME/bin/neo4j start
+
+. Checkout this project using: git clone https://github.com/espiegelberg/spring-session-data-sample-javaconfig-neo4j-ogm.git
+
+. Enter the project, and execute: mvn clean spring-boot:run
+
+. Use a browser to hit http://localhost:8080
+
+. Query Neo4j, using the Neo4j Browser on http://localhost:7474, and you will see you have SPRING_SESSION nodes representing each HttpSession 
+
+= Spring Session Project Site
+
+You can find the documentation, issue management, support, samples, and guides for using Spring Session Neo4j OGM at http://projects.spring.io/spring-session-data-neo4j/
+
+= License
+
+Spring Session is Open Source software released under the http://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license].
