@@ -43,7 +43,10 @@ public class HelloController {
     	}
     	
     	Date now = new Date();
+    	session.setAttribute("Hello", now);    	
     	session.setAttribute(now.toString(), now);
+    	session.setAttribute("HelloString", now.toString());
+    	session.setAttribute("HelloLong", 1L);
     	
     	attributeNames = session.getAttributeNames();
     	
